@@ -1,0 +1,4 @@
+﻿<html><head></head><body><div>Style Everything except for:</div><div><br></div><div><div>#main .post:nth-of-type(3){</div><div><span>	</span>padding-bottom: 0px 0px !important;</div><div><span>	</span>}</div></div><div><br></div><div>This is a way to apply everything except for the first item. &nbsp;So the first item will have padding-top:0px&nbsp;</div><div><pre>#main .post:nth-of-type(1){
+	padding-top: 0px;
+}
+</pre></div><div><br></div><div>Another way to do things is&nbsp;</div><div><br></div><div>div ul:not(:first-child){</div><div>background-color: black;</div><div>&nbsp;}</div></body></html>
